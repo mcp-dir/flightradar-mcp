@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/flightradar-mcp",
+  "title": "Flight Radar",
+  "description": "Live flight radar: real-time position of any aircraft transmitting ADS-B right now. Search by regist",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/flightradar-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_flightradar"
+    }
+  ]
+}
